@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Сайт художника</title>
+        <link rel="stylesheet" href="css/sand.css">
+        <link rel="icon" href="favicon.ico">
+        <script src="js/sand.js" defer></script>
+    </head>
+    <body>
+        <header>
+<div>
+<h1>Сайт художника</h1>
+<p>Оформление заказа</p>
+</div>
+<div>
+<img src="favicon.ico" alt="иконка сайта" width="70px" height="70px">
+</div>
+        </header>
+        <aside>
+            <div>
+            <h2 class="h2">Страницы</h2>
+                <a href="index.html" class="one">Главная</a>
+                <a href="two.html" class="two">Мои картины</a>
+                <a href="three.html" class="three">Покупка картин</a>
+                <a href="four.html" class="four">Участие в выставках</a>
+            </div>  
+        </aside>
+        <main>
+            <div class="forma">
+            <form>
+                
+                <div class="forma_element">    
+                    <label class="form-label" for="имя">
+                        Введите своё имя:
+                    </label>
+                    <input placeholder="имя" class="form-control" type="text" id="имя">
+                </div>
+                <div class="forma_element">
+                    <label class="form-label" for="фамилия">
+                        Введите свою фамилию:
+                    </label>
+                    <input placeholder="фамилия" class="form-control" type="text" id="фамилия">
+                </div>
+                <div class="forma_element">
+                    <label class="form-label" for="дата рождения">
+                        Введите вашу дату рождения:
+                    </label>
+                    <input placeholder="дата рождения" class="form-control" type="date" id="дата рождения">
+                </div>
+                <div class="forma_element">
+                    <label class="form-label" for="почта">
+                        Введите вашу почту:
+                    </label>
+                    <input placeholder="почта" class="form-control" type="email" id="почта">
+                </div>
+                <div class="forma_element">
+                    <label class="form-label" for="пароль">
+                        Введите пароль от почты:
+                    </label>
+                    <input placeholder="пароль" class="form-control" type="password" id="пароль">
+                </div>
+                <div class="forma_element">
+                    <label for="uvedomlenia">Присылать уведомления на вашу почту</label>
+                    <input type="checkbox" id="Присылать уведомления на вашу почту" checked>
+                </div>
+
+                    <button type="submit" class="sand">Отправить</button>
+            </form>
+            </div>
+            <div class="tovar-box">
+                <!--Здесь должно быть кол-во товаров и т.п (С использованием JS)-->
+                <button id="minus" class="tovar">-</button>
+                    <img width="150px" src="assets/shopping_cart.png" alt="товарная корзина">
+                    <p id="tovar" class="chislo">
+                        0
+                    </p>
+                <button id="plus" class="tovar">+</button>
+            </div>
+        </main>
+        <footer>
+            <a href="" target="_blank"><button class="vk"><img src="assets/vk.png" alt="vk"></button></a>
+            <a href="" target="_blank"><button class="yt"><img src="assets/yt.png" alt="yt"></button></a>
+            <a href="" target="_blank"><button class="tg"><img src="assets/tg.png" alt="tg"></button></a>
+        </footer>
+    </body>
+</html>
