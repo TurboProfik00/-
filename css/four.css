@@ -55,6 +55,7 @@ footer {
     justify-content: start;
     align-items: center;
     gap: 30px;
+    bottom: 0;
 }
 
 footer button {
